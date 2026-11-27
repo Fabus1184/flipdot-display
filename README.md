@@ -32,11 +32,11 @@ from the column through the coil into A: one path per colour. An
 [FP2800A](https://reaktor23.org/projects/flipdot/fp2800-datasheet.pdf) on the
 panel connects the selected column to +HV or GND.
 
-![Coil matrix](images/coil-matrix.svg)
+![Coil matrix](images/coil-matrix.png)
 
 ### The driver board
 
-![Block diagram](images/block-diagram.svg)
+![Block diagram](images/block-diagram.png)
 
 The board switches the rows and powers the panel:
 

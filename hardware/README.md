@@ -24,6 +24,7 @@ All design files are **KiCad 10** projects:
 | [`kicad/flipdot-driver/`](kicad/flipdot-driver/) | Driver board **Rev 2.1** (SMD), 100 × 85 mm, 2 layers | Current. First ordered from JLCPCB in June 2026. |
 | [`kicad/flipdot-driver-rev1.2/`](kicad/flipdot-driver-rev1.2/) | Driver board **Rev 1.2** (through-hole), 140 × 71 mm | Superseded, kept for reference |
 | [`kicad/panel-wiring/`](kicad/panel-wiring/) | Drawing of the panel's connector and coil/diode matrix | Documentation only, not a circuit |
+| [`kicad/figures/`](kicad/figures/) | The README figures: coil matrix with current paths, block diagram | Documentation only |
 
 Each project brings its own symbol and footprint library (`flipdot.kicad_sym`,
 `flipdot.pretty/`), so it opens without extra library setup.
