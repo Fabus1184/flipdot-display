@@ -1,5 +1,7 @@
 # flipdot-display
 
+[![CI](https://github.com/Fabus1184/flipdot-display/actions/workflows/ci.yml/badge.svg)](https://github.com/Fabus1184/flipdot-display/actions/workflows/ci.yml)
+
 A flipdot panel driven by an ESP32. This repository includes the driver board (KiCad) and the firmware (Rust).
 
 <p align="center">
@@ -17,60 +19,52 @@ A flipdot panel driven by an ESP32. This repository includes the driver board (K
 
 ## How it works
 
-![Block diagram](images/block-diagram.svg)
+### The dots
 
-**[Flipdots.](https://en.wikipedia.org/wiki/Flip-disc_display)** Each dot is a
-magnetised disc over a coil. A current pulse flips it; the current's direction
-sets the colour. The disc holds its position without power.
+Each [flipdot](https://en.wikipedia.org/wiki/Flip-disc_display) is a
+magnetised disc on a coil. A current pulse flips it, the direction of the
+current picks the colour, and the disc stays put without power.
 
-**Panel.** The 28 × 16 coils sit in a matrix. Each row has two lines, B and A;
-each coil connects its column to the midpoint of two diodes in series from B to
-A. So current can only flow from row line B into the column, or from the column
-into row line A. An
+The panel wires its 28 × 16 coils as a matrix. Each coil sits between its
+column and the midpoint of two diodes, which connect to the row's two lines,
+B and A. So current flows either from B through the coil into the column, or
+from the column through the coil into A: one path per colour. An
 [FP2800A](https://reaktor23.org/projects/flipdot/fp2800-datasheet.pdf) on the
-panel drives the columns: a 5-bit address selects one of the 28, and its `DATA`
-input decides whether that column sources or sinks. Its output stage runs from
-+HV, which it gets from the driver board.
+panel connects the selected column to +HV or GND.
 
 ![Coil matrix](images/coil-matrix.svg)
 
-**Driver board.** It switches the rows. Per row:
+### The driver board
+
+![Block diagram](images/block-diagram.svg)
+
+The board switches the rows and powers the panel:
 
 - **High side:** an [AO3401A](https://www.lcsc.com/product-detail/C15127.html)
-  P-MOSFET connects `ROWnB` to +HV. A
-  [ULN2803A](https://www.ti.com/lit/ds/symlink/uln2803a.pdf) channel (`HSDn`)
-  pulls its gate down through a 1k/1k divider; a 10 V Zener limits the
-  gate-source voltage.
+  connects `ROWnB` to +HV, its gate driven by a
+  [ULN2803A](https://www.ti.com/lit/ds/symlink/uln2803a.pdf).
 - **Low side:** an [AO3400A](https://www.lcsc.com/product-detail/C20917.html)
-  N-MOSFET connects `ROWnA` to GND.
-
-The 32 enable bits (`HSS_EN_n`, `LSS_EN_n`) come from four
-[74HC595](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf)
-shift registers. An
-[XL6019](https://www.lcsc.com/datasheet/lcsc_datasheet_2309151739_XLSEMI-XL6019E1_C73018.pdf)
-boost converter makes +HV (16–25 V, set with R105) from USB-C 5 V. Details are in
-[`hardware/`](hardware/).
+  connects `ROWnA` to GND.
+- Four [74HC595](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf)
+  hold the 32 switch enables. An
+  [XL6019](https://www.lcsc.com/datasheet/lcsc_datasheet_2309151739_XLSEMI-XL6019E1_C73018.pdf)
+  boost converter makes +HV (16–25 V) from USB-C.
 
 | High side, one row | Low side, one row |
 | --- | --- |
 | ![](hardware/images/schematic-hss.png) | ![](hardware/images/schematic-lss.png) |
 
-**Flipping a dot** at row *r*, column *c*:
+### Flipping one dot
 
-1. The ESP32 shifts 32 bits into the 74HC595 chain and latches them. Only
-   `HSS_EN_r` or only `LSS_EN_r` is set, depending on the colour. Pulling
-   `SR_OE#` low turns that one switch on: `ROWrB` is now at +HV, or `ROWrA` is
-   at GND.
-2. It sets the FP2800A address to column *c* and `FP_DATA` to the opposite
-   direction: sink against a high-side row, source against a low-side row.
-3. It raises `FP_EN` for 500 µs. Current flows through one row switch, one
-   diode, the coil and the FP2800A, and the disc turns over. All other coils
-   are blocked by their diodes or sit on an open column.
-4. It drops `FP_EN`, raises `SR_OE#` and waits 500 µs before the next dot.
+1. Latch one row switch into the shift registers (`HSS_EN_r` for one colour,
+   `LSS_EN_r` for the other) and enable it with `SR_OE#`.
+2. Point the FP2800A at the column with the opposite polarity and pulse
+   `FP_EN` for 500 µs.
+3. Switch everything off and wait 500 µs.
 
-Two row switches on at once would overload the FP2800A, so the firmware makes
-sure this never happens and tests it against a simulated board (see
-[One dot at a time](firmware/README.md#one-dot-at-a-time)).
+Never more than one row switch is on, or the FP2800A would be overloaded; the
+firmware enforces and tests this ([one dot at a time](firmware/README.md#one-dot-at-a-time)).
+Schematics, pinout and errata are in [`hardware/`](hardware/).
 
 ## Firmware
 
