@@ -1,0 +1,146 @@
+{
+ "C0402": {
+  "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+  "rot": 0,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.06,
+  "how": "numbers"
+ },
+ "C1206": {
+  "model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+  "rot": 0,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.117,
+  "how": "numbers"
+ },
+ "CAP-TH_BD8.0-P3.50-D0.6-FD": {
+  "model": "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P3.50mm.step",
+  "rot": 0,
+  "dx": -1.75,
+  "dy": 0.0,
+  "err": 0.0,
+  "how": "numbers"
+ },
+ "HDR-TH_2P-P2.54-V-M": {
+  "model": "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step",
+  "rot": 90,
+  "dx": -1.27,
+  "dy": -0.0,
+  "err": 0.0,
+  "how": "numbers"
+ },
+ "IDC-TH_50P-P2.54_BOOMELE2X25P": {
+  "model": "${KICAD10_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x25_P2.54mm_Vertical.step",
+  "rot": 90,
+  "dx": -30.48,
+  "dy": 1.27,
+  "err": 0.0,
+  "how": "numbers"
+ },
+ "LED0805-R-RD": {
+  "model": "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step",
+  "rot": 180,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.113,
+  "how": "numbers"
+ },
+ "R0402": {
+  "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+  "rot": 0,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.077,
+  "how": "numbers"
+ },
+ "R0603": {
+  "model": "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+  "rot": 0,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.072,
+  "how": "numbers"
+ },
+ "RES-ADJ-TH_3P-L10.0-W10.0-P2.50-L": {
+  "model": "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.step",
+  "rot": 180,
+  "dx": -2.54,
+  "dy": -0.0,
+  "err": 0.033,
+  "how": "numbers"
+ },
+ "SMB_L4.6-W3.6-LS5.3-BI": {
+  "model": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step",
+  "rot": 0,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.241,
+  "how": "numbers"
+ },
+ "SOD-123_L2.7-W1.6-LS3.7-RD": {
+  "model": "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step",
+  "rot": 0,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.015,
+  "how": "numbers"
+ },
+ "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL": {
+  "model": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step",
+  "rot": 90,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.26,
+  "how": "numbers"
+ },
+ "SOP-18_L11.4-W7.6-P1.27-LS10.6-BL": {
+  "model": "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-18W_7.5x11.6mm_P1.27mm.step",
+  "rot": 90,
+  "dx": 0.0,
+  "dy": 0.0,
+  "err": 0.307,
+  "how": "numbers"
+ },
+ "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR": {
+  "model": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+  "rot": 180,
+  "dx": 0.0208,
+  "dy": -0.0,
+  "err": 0.059,
+  "how": "numbers"
+ },
+ "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR": {
+  "model": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+  "rot": 180,
+  "dx": 0.0708,
+  "dy": -0.0,
+  "err": 0.2,
+  "how": "numbers"
+ },
+ "TO-252-3_L6.5-W5.9-P4.60-LS10.0-BL": {
+  "model": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.step",
+  "rot": 90,
+  "dx": 0.0,
+  "dy": -1.7403,
+  "err": 0.424,
+  "how": "numbers"
+ },
+ "TO-263-5_L10.2-W9.9-P1.70-LS14.4-TL": {
+  "model": "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step",
+  "rot": 0,
+  "dx": 2.316,
+  "dy": 0.0,
+  "err": 0.0,
+  "how": "numbers"
+ },
+ "USB-C-SMD_TYPE-C-6PIN-2MD-073": {
+  "model": "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step",
+  "rot": 0,
+  "dx": 0.0,
+  "dy": 1.82,
+  "err": 0.53,
+  "how": "geometry"
+ }
+}

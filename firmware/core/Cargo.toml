@@ -1,0 +1,12 @@
+[package]
+name = "flipdot-core"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Hardware-independent logic for the flipdot display: frame buffer, font, clock screen, NTP and weather parsing"
+license = "CC-BY-NC-SA-4.0"
+publish = false
+
+[dependencies]
+chrono = { version = "0.4.42", default-features = false }
+chrono-tz = { version = "0.10.4", default-features = false }

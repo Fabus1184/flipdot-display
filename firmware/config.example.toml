@@ -1,0 +1,21 @@
+# Copy this file to `config.toml` (which is git-ignored) and fill it in.
+# It is read at build time; change it and rebuild to apply.
+# Use another file with: FLIPDOT_CONFIG=path/to/file.toml cargo build --release
+
+[wifi]
+ssid = "my-network"
+password = "my-password" # WPA2 personal
+
+[network]
+# Static IPv4 configuration (DHCP is not supported yet).
+address = "192.168.1.50/24"
+gateway = "192.168.1.1"
+dns = "1.1.1.1"
+
+[clock]
+timezone = "Europe/Berlin" # any IANA time zone name
+ntp_server = "pool.ntp.org"
+
+[weather]
+# Anything wttr.in understands: a town, "~Some+Place", an airport code, ...
+location = "Berlin"

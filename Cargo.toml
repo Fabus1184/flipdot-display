@@ -1,0 +1,18 @@
+[workspace]
+resolver = "3"
+members = ["firmware", "firmware/core"]
+# Plain `cargo test/clippy/build` work on the host-testable crate; the
+# firmware is built with the aliases in .cargo/config.toml.
+default-members = ["firmware/core"]
+
+[profile.dev]
+opt-level = "s"
+
+[profile.release]
+codegen-units = 1
+debug = 2
+debug-assertions = false
+incremental = false
+lto = "fat"
+opt-level = "s"
+overflow-checks = false

@@ -1,0 +1,385 @@
+(footprint "DC-IN-TH_DC005-2.5MM"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -10.777 -7.1535 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "34835744-06b8-44fc-8e65-4c1925f8859c")
+		(effects
+			(font
+				(size 0.686 0.6285)
+				(thickness 0.1525)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "DC005-2.5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3b7cfb46-95c5-4656-87ed-5f17b429af3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/DC005-2.5/8598476.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79c6642b-879b-4cb3-a410-b1008e82244c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d418516-8531-49ca-a421-ef3cf4bbdf6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "6c09440b465a4d21bad37d577526b04a"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "c8e5eafb-6c3b-4fdd-9be1-83b69147e2a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "14.2 9.301"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "598d70ee-735b-4eb3-928a-2b62ce4cf392")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "DC005-2.5"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de767c3f-60db-4db4-b3d1-d32e07f3c761")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "SHOU HAN(首韩)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab35bd8b-d756-43f4-8616-6fa36ac77fe1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Supplier Part" "C7507454"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9750f782-6d09-46a2-93c2-5b662d55baab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6b0da4c-e51c-4ba3-8e50-44a67bf5e8f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part Name" "DC电源插座 内径:2.5mm 外径:6.3mm"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dd2820f-a829-4604-b57d-af7f08572276")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "flipdot-driver-rev1.2.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.65 -6.8995)
+		(end -10.65 2.1005)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b32d7f0f-746a-45f6-9810-c3856081b3a3")
+	)
+	(fp_line
+		(start -10.65 -6.8995)
+		(end 3.55 -6.8995)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd1f974a-a1fd-4034-a493-75bba53afd33")
+	)
+	(fp_line
+		(start -7.35 -6.8995)
+		(end -7.35 -6.0105)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c85021a-3c3e-48ab-bc2c-a3479450f494")
+	)
+	(fp_line
+		(start -7.35 -6.0105)
+		(end -7.35 2.1005)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7a6af5a6-6cee-4abf-9e71-e47ae71f5abc")
+	)
+	(fp_line
+		(start -1.8595 2.1005)
+		(end -10.65 2.1005)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8859b4c1-af56-4f7e-9c9c-7230f18813e5")
+	)
+	(fp_line
+		(start -1.8595 2.1005)
+		(end -1.6595 2.1005)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f25a7ca-7c5e-42c3-8d3f-3f0daac8058b")
+	)
+	(fp_line
+		(start 2.3595 2.1005)
+		(end 3.55 2.1005)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "956a5a9f-c133-4279-94c3-8a99d6decc0e")
+	)
+	(fp_line
+		(start 3.55 -6.8995)
+		(end 3.55 -4.254)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fbeef49-cae0-475d-95bb-e9fee76facc6")
+	)
+	(fp_line
+		(start 3.55 -0.3455)
+		(end 3.55 2.1005)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "662dc53c-cbdf-4510-9334-152a8e7c50b5")
+	)
+	(fp_poly
+		(pts
+			(xy -7.35 -6.7995) (xy -7.35 2.2005) (xy -10.65 2.2005) (xy -10.65 -6.7995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "4d2ccf75-1ad2-46d4-9d8f-1ec1d18a5220")
+	)
+	(fp_rect
+		(start -10.9255 -7.0755)
+		(end 4.25 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9e12d102-7cd2-4265-8937-2a979642aa40")
+	)
+	(fp_line
+		(start -10.65 -6.8)
+		(end 3.35 -6.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b20797ba-2729-4903-a07a-05fed9af6240")
+	)
+	(fp_line
+		(start -10.65 2.2)
+		(end -10.65 -6.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2ce544ba-9c26-442d-a105-a96305599b41")
+	)
+	(fp_line
+		(start 3.35 -6.8)
+		(end 3.35 2.2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "80c0abc1-1a71-4204-9101-7768a1436721")
+	)
+	(fp_line
+		(start 3.35 2.2)
+		(end -10.65 2.2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "95b18872-8716-46ae-a4f8-16cfa177b681")
+	)
+	(fp_poly
+		(pts
+			(xy 3.605433 2.427039) (xy 3.572961 2.394567) (xy 3.527039 2.394567) (xy 3.494567 2.427039) (xy 3.494567 2.472961)
+			(xy 3.527039 2.505433) (xy 3.572961 2.505433) (xy 3.605433 2.472961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "cda10754-2ed4-4004-8375-f0c9cfd7708d")
+	)
+	(fp_poly
+		(pts
+			(xy -3 -1.05) (xy -3.3 -1.05) (xy -3.3 -3.55) (xy -3 -3.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "f38d1df1-da5d-41d4-9701-ab57fe07a9d0")
+	)
+	(fp_poly
+		(pts
+			(xy -0.9 2.45) (xy -0.9 2.15) (xy 1.6 2.15) (xy 1.6 2.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "0026555d-be00-434e-8e92-0656f7fc84b3")
+	)
+	(fp_poly
+		(pts
+			(xy 2.8 -3.5495) (xy 3.1 -3.5495) (xy 3.1 -1.0495) (xy 2.8 -1.0495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "a19ba994-78fe-4925-b972-ef80d0805616")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3b807d7e-b671-4bc9-aad1-aa4eeef0a87f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "2" thru_hole oval
+		(at 0.15 2.3 270)
+		(size 1.4 3.6)
+		(drill oval 0.8 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87151dbb-1e7e-43ad-a1a1-39c1fdccaecd")
+	)
+	(pad "3" thru_hole oval
+		(at -3.15 -2.3 180)
+		(size 1.7 3.6)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28ad2810-fb88-4c7d-8bb5-20d8378efb5e")
+	)
+	(pad "4" thru_hole oval
+		(at 3.15 -2.2995)
+		(size 1.7 3.6)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15a595a6-3f6e-413c-a6e0-af0a3b1f64f6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/DC-IN-TH_DC005-2.5MM.step"
+		(offset
+			(xyz -3.535 2.209 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,14 @@
+target/
+# local build configuration with WiFi credentials
+firmware/config.toml
+*.local.toml
+
+# KiCad
+*.kicad_prl
+*.lck
+*-backups/
+fp-info-cache
+hardware/kicad/*/output/
+
+# Local-only files, e.g. render assets that may not be redistributed
+/local/

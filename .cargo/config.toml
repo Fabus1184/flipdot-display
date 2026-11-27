@@ -1,0 +1,11 @@
+# The firmware needs the ESP32 target and a self-built core/alloc; the aliases
+# add both. Everything else (`cargo test`, `cargo clippy`, `cargo fmt`) runs on
+# the host for firmware/core, the workspace's default member.
+[alias]
+firmware = "build --release -p flipdot-firmware --target xtensa-esp32-none-elf -Zbuild-std=core,alloc"
+flash = "run --release -p flipdot-firmware --target xtensa-esp32-none-elf -Zbuild-std=core,alloc"
+firmware-clippy = "clippy --release -p flipdot-firmware --target xtensa-esp32-none-elf -Zbuild-std=core,alloc"
+
+[target.xtensa-esp32-none-elf]
+runner = "espflash flash --monitor --chip esp32"
+rustflags = ["-C", "link-arg=-nostartfiles"]

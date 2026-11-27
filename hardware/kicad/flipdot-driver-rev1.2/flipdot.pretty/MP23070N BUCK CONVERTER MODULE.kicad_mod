@@ -1,0 +1,273 @@
+(footprint "MP23070N BUCK CONVERTER MODULE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.667 -1.397 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a163c6a-28d3-4697-bb83-d591e64f2e2c")
+		(effects
+			(font
+				(size 0.686 0.6285)
+				(thickness 0.1525)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MP23070N Buck Converter Module"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b4282657-71d8-44a1-b172-8123cc924e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dae799c-c6d1-4c3a-9d1f-5320372890b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7025e0ee-8194-467a-910e-b921271819ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "MP23070N Buck Converter Module"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f678237-8af5-41fd-a9d6-b18ce3000626")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "flipdot-driver-rev1.2.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.54 0)
+		(end -2.032 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c53ab6c-b14a-4d94-b2d8-dd4ddeafd9ce")
+	)
+	(fp_line
+		(start -2.54 8.89)
+		(end -2.032 8.89)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0184b992-ee12-41ea-8fcc-8af6af0ac276")
+	)
+	(fp_line
+		(start -2.286 8.636)
+		(end -2.286 9.144)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c722abf-25a7-4b5b-8958-f6f962b59524")
+	)
+	(fp_line
+		(start -1.016 -1.016)
+		(end -1.016 10.16)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7bf3511-53c0-496d-87a1-8c3375ab40ff")
+	)
+	(fp_line
+		(start -1.016 -1.016)
+		(end 16.1365 -1.016)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8de46654-9dee-483a-bd97-37508ff41771")
+	)
+	(fp_line
+		(start -1.016 10.16)
+		(end 16.256 10.16)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7a3f088-1d3a-4ee4-b7bc-0170087df994")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 9.144)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7f741c0-2cd4-40d3-bf80-effe1aa9fda7")
+	)
+	(fp_line
+		(start 0 0)
+		(end 15.24 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "581b0b49-85fa-40bc-a3f3-357a88f85064")
+	)
+	(fp_line
+		(start 0 9.144)
+		(end 15.24 9.144)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f593cef-6c47-4ded-8de0-fc7afb226b8c")
+	)
+	(fp_line
+		(start 15.24 0)
+		(end 15.24 9.144)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "39e2ba89-7e0d-48e5-bab1-e7654634224b")
+	)
+	(fp_line
+		(start 16.1365 -1.016)
+		(end 16.256 -1.016)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3663ed3-5e9a-4e11-93a1-2812e50fa53c")
+	)
+	(fp_line
+		(start 16.256 -1.016)
+		(end 16.256 10.16)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "02952c83-357e-49a1-95ea-911c9c61c5a2")
+	)
+	(fp_line
+		(start 17.272 0.254)
+		(end 17.78 0.254)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b488cf6-6170-475a-9602-ca3e7fff5c1f")
+	)
+	(fp_line
+		(start 17.272 9.144)
+		(end 17.78 9.144)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d0894a33-64e6-4107-b37f-6bcd893c3b43")
+	)
+	(fp_line
+		(start 17.526 8.89)
+		(end 17.526 9.398)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "709fa454-bac8-409d-8a6a-4706936dc9fd")
+	)
+	(fp_rect
+		(start -2.75 -1.75)
+		(end 18.244 10.64)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "639363eb-42ea-48a2-99ba-27d3b44e4c05")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "26459eca-b8bb-4fb0-8bcc-26614a921a28")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 8.89)
+		(size 5 3)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe94802a-8c16-4abc-85cb-ef1b809cc284")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 5 3)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a32a5224-fdbd-4793-87f8-3ecd95874bc6")
+	)
+	(pad "3" thru_hole rect
+		(at 15.24 8.89)
+		(size 5 3)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd9edb84-43f2-4e58-a0aa-b784932b3e61")
+	)
+	(pad "4" thru_hole oval
+		(at 15.494 0)
+		(size 5 3)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "481fab7f-c050-4f78-bfa6-2882ad0d0035")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,336 @@
+(footprint "RES-TH_BD2.4-L6.3-P10.30-D0.6"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.380965 -1.27015 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "95bf4ade-e71a-482d-bf65-2d190ed80f54")
+		(effects
+			(font
+				(size 0.686 0.6285)
+				(thickness 0.1525)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "4.7kΩ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "18da502b-a367-4fc5-bc76-debf6daf8031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/MFR-25FTF52-4K7/3965886.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20eacdbf-632c-48c2-acb4-5cf50216ac32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Type:Metal Film Resistor Resistance:4.7kΩ Tolerance:±1% Tolerance:±1% Power(Watts):250mW Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a97b987f-f665-4448-913e-ea433ab05cb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "1723974b41284f5c8da509f1f508e955"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "6d9182b3-69e0-482d-a9ca-48ec56dfa68b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "10.85 2.396"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "378f8c94-1b9a-47f6-863c-d18b9f6f62e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "MFR-25FTF52-4K7"
+		(at 0 0 330)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "398ae8ad-211b-4d92-b8da-7d1d3172404d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "YAGEO(国巨)"
+		(at 0 0 330)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c36ed0da-d7d6-439a-8039-b48641f45ab7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Supplier Part" "C3400584"
+		(at 0 0 330)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5519cca-fa24-41b6-aec1-c76b308eb5f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 330)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72745d04-165a-4fb7-ae66-2e5ec6b2a921")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part Name" "金属膜电阻 4.7kΩ ±1% 250mW"
+		(at 0 0 330)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7a64f06-18c4-40e4-9f9b-cf98aeda6c7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "flipdot-driver-rev1.2.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.15 -1.2)
+		(end 3.15 -1.2)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db9c6d72-3eef-4019-ad79-7bc2553868f6")
+	)
+	(fp_line
+		(start -3.15 1.2)
+		(end -3.15 -1.2)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c8277ac-3b69-4b6f-85be-791b95d94909")
+	)
+	(fp_line
+		(start 3.15 -1.2)
+		(end 3.15 1.2)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "009a0f82-ca34-4987-9f50-68c78af0340f")
+	)
+	(fp_line
+		(start 3.15 1.2)
+		(end -3.15 1.2)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11d0a122-5754-44bb-be3d-fc2cd61157d9")
+	)
+	(fp_poly
+		(pts
+			(xy -6.050001 -1.4755) (xy 6.05 -1.475499) (xy 6.05 1.505433) (xy -6.05 1.505433)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b9c58e41-4cb7-4852-8d85-03ce8c5cda0c")
+	)
+	(fp_line
+		(start -3.15 -1.2)
+		(end 3.15 -1.2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ac1922f9-632f-4f08-abc3-aa7832becb59")
+	)
+	(fp_line
+		(start -3.15 1.2)
+		(end -3.15 -1.2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "69e89a3f-32ad-420b-b8d6-c20ceef759eb")
+	)
+	(fp_line
+		(start 3.15 -1.2)
+		(end 3.15 1.2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "13326ffb-a8fc-4145-8709-a1d3a15bc29a")
+	)
+	(fp_line
+		(start 3.15 1.2)
+		(end -3.15 1.2)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2eaf6aee-e24b-4ee7-8638-34f6e9d2bdaa")
+	)
+	(fp_poly
+		(pts
+			(xy -5.369567 1.177039) (xy -5.40204 1.144567) (xy -5.447961 1.144567) (xy -5.480433 1.177039) (xy -5.480433 1.222961)
+			(xy -5.447961 1.255433) (xy -5.402039 1.255432) (xy -5.369567 1.222961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "805b5579-18c5-44f1-bf08-eab3cf4bf94a")
+	)
+	(fp_poly
+		(pts
+			(xy -5.42 -0.2745) (xy -3.089999 -0.26) (xy -3.089999 0.29) (xy -5.4255 0.2735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "25cf14ae-e046-4e97-aaf8-cb6e16354a77")
+	)
+	(fp_poly
+		(pts
+			(xy 3.0975 -0.2825) (xy 5.4275 -0.268) (xy 5.4275 0.2825) (xy 3.0925 0.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "8deac6cb-475d-48c2-86cc-0fa8b2e98ed8")
+	)
+	(fp_poly
+		(pts
+			(xy -4.880284 -0.05365) (xy -4.921346 -0.152782) (xy -4.997218 -0.228654) (xy -5.09635 -0.269716)
+			(xy -5.20365 -0.269716) (xy -5.302782 -0.228654) (xy -5.378654 -0.152782) (xy -5.419716 -0.05365)
+			(xy -5.419716 0.05365) (xy -5.378654 0.152782) (xy -5.302782 0.228654) (xy -5.20365 0.269716) (xy -5.09635 0.269716)
+			(xy -4.997218 0.228654) (xy -4.921346 0.152782) (xy -4.880284 0.05365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "62da6fce-83f0-4d97-a04e-81e1c66ed2a7")
+	)
+	(fp_poly
+		(pts
+			(xy 5.419716 -0.05365) (xy 5.378654 -0.152782) (xy 5.302782 -0.228654) (xy 5.20365 -0.269716) (xy 5.09635 -0.269716)
+			(xy 4.997218 -0.228654) (xy 4.921346 -0.152782) (xy 4.880284 -0.05365) (xy 4.880284 0.05365) (xy 4.921346 0.152782)
+			(xy 4.997218 0.228654) (xy 5.09635 0.269716) (xy 5.20365 0.269716) (xy 5.302782 0.228654) (xy 5.378654 0.152782)
+			(xy 5.419716 0.05365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "47c04332-4623-4e03-874d-1f7e705eb185")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d8e874c4-e97c-40b0-abe4-5deb23fc048f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.15 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "3dfae4ba-e766-4120-9b9e-134d74cbce38")
+	)
+	(pad "2" thru_hole circle
+		(at 5.15 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a707cf41-63a6-4b14-8e91-0e40f7d947fd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/RES-TH_BD2.4-L6.3-P10.30-D0.6.step"
+		(offset
+			(xyz 0 0 -5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,8 @@
+# KiCad files are text, keep them byte-exact
+*.kicad_sch -text diff
+*.kicad_pcb -text diff
+*.kicad_sym -text diff
+*.kicad_mod -text diff
+# EasyEDA Pro project (zip)
+*.epro2 binary
+*.http -text

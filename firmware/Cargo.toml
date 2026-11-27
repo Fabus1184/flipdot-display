@@ -1,0 +1,42 @@
+[package]
+name = "flipdot-firmware"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "ESP32 firmware for the 28x16 flipdot clock"
+license = "CC-BY-NC-SA-4.0"
+publish = false
+
+[[bin]]
+name = "flipdot"
+path = "src/main.rs"
+test = false
+bench = false
+
+[dependencies]
+flipdot-core = { path = "core" }
+
+esp-hal = { version = "1.0.0", features = ["esp32", "unstable"] }
+esp-bootloader-esp-idf = { version = "0.4.0", features = ["esp32"] }
+esp-println = { version = "0.16.1", features = ["esp32"] }
+esp-backtrace = { version = "0.18.1", features = ["esp32", "println"] }
+esp-alloc = { version = "0.9.0", features = ["esp32"] }
+esp-rtos = { version = "0.2.0", features = ["embassy", "esp-radio", "esp32"] }
+esp-radio = { version = "0.17.0", default-features = false, features = [
+    "esp32",
+    "unstable",
+    "wifi",
+] }
+chrono-tz = { version = "0.10.4", default-features = false }
+spin = { version = "0.10.0", default-features = false, features = ["mutex", "spin_mutex"] }
+log = "0.4.33"
+embassy-executor = "0.9"
+embassy-time = "0.5"
+embassy-futures = "0.1"
+static_cell = "2"
+embassy-net = { version = "0.7", default-features = false, features = ["tcp", "udp", "dns", "proto-ipv4", "medium-ethernet"] }
+embassy-sync = "0.7"
+
+[build-dependencies]
+toml = "0.8"
+chrono-tz = "0.10.4"

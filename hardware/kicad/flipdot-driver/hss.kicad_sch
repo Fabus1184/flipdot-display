@@ -1,0 +1,1532 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6b2710ab-5918-4b49-9581-b20674c22369")
+	(paper "A5")
+	(title_block
+		(title "High-side row switch (one channel)")
+		(date "2026-11-25")
+		(rev "2.1")
+		(company "flipdot-display")
+		(comment 1 "Placed 16x on the top sheet")
+	)
+	(lib_symbols
+		(symbol "flipdot:AO3401A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "flipdot:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/AO3401A/15801.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "AO3401A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "AOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C15127"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "1个P沟道 耐压:30V 电流:4A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3401A_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 2.54 2.54) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 2.54) (xy 5.08 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.016 0.508) (xy 1.016 0.508) (xy 1.016 -0.508) (xy 1.016 -0.508) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.508) (xy 5.842 0.762) (xy 5.842 0.762) (xy 4.318 0.762) (xy 4.318 0.762) (xy 5.08 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.588 -0.508) (xy 5.588 -0.508) (xy 4.572 -0.508) (xy 4.572 -0.508) (xy 4.318 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flipdot:BZT52C10_C19077408"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "flipdot:SOD-123_L2.7-W1.6-LS3.7-RD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/BZT52C10/20275493.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "BZT52C10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "R+O(宏嘉诚)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C19077408"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "表面贴装齐纳二极管"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZT52C10_C19077408_1_0"
+				(polyline
+					(pts
+						(xy -2.032 2.032) (xy -1.27 1.524) (xy -1.27 1.524) (xy -1.27 -1.524) (xy -1.27 -1.524) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "flipdot:Res"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "flipdot:R0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Res_1_0"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 97.79 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67aae927-cc94-4033-9d4f-0f7a29d3801c")
+	)
+	(junction
+		(at 97.79 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802d578b-e326-4969-849e-9d2913656f20")
+	)
+	(junction
+		(at 107.95 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885683a2-2606-49f2-bae2-bfb5e31768f6")
+	)
+	(junction
+		(at 107.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab0374ca-0779-4596-9e41-86a0ac7cc769")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 97.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b43eb88-c78d-49cb-87ea-0565b9c7949d")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1b180f-0258-4b01-91d1-3c462c3dd4b4")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 97.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19971b2c-b995-4550-ad87-321d2d61f2ce")
+	)
+	(wire
+		(pts
+			(xy 97.79 54.61) (xy 97.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29da3fe0-a3b6-4526-80c6-1dd4367a9b17")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5125ea62-1bf1-48b6-b2c9-7c2e849adec5")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562e8f15-0cc8-404e-ba73-0d17a886c850")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 97.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8599a699-52e9-4f67-8207-287d22e17ae6")
+	)
+	(wire
+		(pts
+			(xy 97.79 64.77) (xy 97.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d126fe2b-1d4b-47c1-8033-2960d9a3d5e4")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d75000-0b42-44b9-afe7-e96a1a5e8dc9")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cdbc30-c046-4402-8356-1f5943a313be")
+	)
+	(wire
+		(pts
+			(xy 123.19 60.96) (xy 123.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c3ae1f-345a-479f-ae55-0c8412946b1c")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f602a782-9fd5-4aa4-a7d2-faf08dbfa1d0")
+	)
+	(wire
+		(pts
+			(xy 123.19 53.34) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78dfd6c-6a60-43a5-954c-2a7b6f199cde")
+	)
+	(wire
+		(pts
+			(xy 107.95 64.77) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3e1171-0bf5-4d82-b799-1feaf2ff55db")
+	)
+	(hierarchical_label "ROW"
+		(shape output)
+		(at 125.73 73.66 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify left)
+		)
+		(uuid "07be1d26-18ed-45a8-b767-70fa022cb8d6")
+	)
+	(hierarchical_label "+HV"
+		(shape input)
+		(at 91.44 53.34 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "454d260c-6c9a-47bf-8c07-313b1c6de324")
+	)
+	(hierarchical_label "EN#"
+		(shape input)
+		(at 85.09 66.04 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "f12aab47-a2cf-4be1-9996-76b8fd924c44")
+	)
+	(symbol
+		(lib_id "flipdot:Res")
+		(at 91.44 66.04 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d023559-9834-4adf-9be1-3a8a7d1bfbbd")
+		(property "Reference" "R20"
+			(at 88.9 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k"
+			(at 88.9 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "flipdot:R0603"
+			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46864793-5810-4228-9bdd-8740487361e1")
+		)
+		(pin "1"
+			(uuid "f08b5312-6fbb-4cdc-96c9-9039ee5d3463")
+		)
+		(instances
+			(project "flipdot-driver"
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/23dd61ff-af20-420b-922c-1b78af65a8d2"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/28897df5-d5ba-45dd-b861-5a58f8e1226b"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/45825236-392f-4ea6-8c56-949587a7b847"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/7e12063d-9183-4f4e-b04a-6c9d44bd7e6e"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/900aecf4-8784-459a-afa1-dcb1080a7217"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/add764bb-b94f-44de-ada9-aa9db7bfbe33"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b184dd66-5b41-4563-99b2-edc5fdc65606"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b5c7a04d-d446-4735-9fed-23a26d286e82"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bd2c18ce-9603-4021-8b40-85311b12c3dd"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bda2c2b3-3548-42f9-893a-8c713f59a512"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c01e915a-19a4-4667-be8c-8776b0fc2e09"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c5507223-a188-4e5f-aa93-5c3937f8169e"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d09bd042-6db0-4704-9636-e02cca182aa8"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d743647f-aef7-4647-b805-41e80c681faf"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e225db67-1954-44ab-8a33-fd7cce1565cc"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e9b49fc8-028b-49de-97e3-4619df0a533c"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipdot:AO3401A")
+		(at 120.65 66.04 0)
+		(mirror x)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69e46de7-d420-4762-a307-ef0fd3a1061c")
+		(property "Reference" "Q17"
+			(at 128.27 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 128.27 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "flipdot:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/AO3401A/15801.html"
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AO3401A"
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AOS"
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C15127"
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "1个P沟道 耐压:30V 电流:4A"
+			(at 120.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8feb0cb6-e6e1-41cf-85b5-b2da351c3df4")
+		)
+		(pin "3"
+			(uuid "0bef9042-2b1d-4060-bc92-55a7140fa959")
+		)
+		(pin "1"
+			(uuid "6f19b121-f6a0-4893-a766-59fff8a0c401")
+		)
+		(instances
+			(project "flipdot-driver"
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/23dd61ff-af20-420b-922c-1b78af65a8d2"
+					(reference "Q29")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/28897df5-d5ba-45dd-b861-5a58f8e1226b"
+					(reference "Q23")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/45825236-392f-4ea6-8c56-949587a7b847"
+					(reference "Q24")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/7e12063d-9183-4f4e-b04a-6c9d44bd7e6e"
+					(reference "Q26")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/900aecf4-8784-459a-afa1-dcb1080a7217"
+					(reference "Q20")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/add764bb-b94f-44de-ada9-aa9db7bfbe33"
+					(reference "Q22")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b184dd66-5b41-4563-99b2-edc5fdc65606"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b5c7a04d-d446-4735-9fed-23a26d286e82"
+					(reference "Q31")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bd2c18ce-9603-4021-8b40-85311b12c3dd"
+					(reference "Q27")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bda2c2b3-3548-42f9-893a-8c713f59a512"
+					(reference "Q18")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c01e915a-19a4-4667-be8c-8776b0fc2e09"
+					(reference "Q17")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c5507223-a188-4e5f-aa93-5c3937f8169e"
+					(reference "Q32")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d09bd042-6db0-4704-9636-e02cca182aa8"
+					(reference "Q30")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d743647f-aef7-4647-b805-41e80c681faf"
+					(reference "Q21")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e225db67-1954-44ab-8a33-fd7cce1565cc"
+					(reference "Q28")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e9b49fc8-028b-49de-97e3-4619df0a533c"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipdot:BZT52C10_C19077408")
+		(at 107.95 59.69 270)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "707c874e-cadc-458b-8211-9f0e4dc0acfe")
+		(property "Reference" "D1"
+			(at 111.76 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BZT52C10"
+			(at 111.76 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "flipdot:SOD-123_L2.7-W1.6-LS3.7-RD"
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/BZT52C10/20275493.html"
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BZT52C10"
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C19077408"
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "表面贴装齐纳二极管"
+			(at 107.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f22f0f9-3c12-4272-9ddf-0da5e9634fee")
+		)
+		(pin "1"
+			(uuid "717bf4e3-9761-4bb7-8c72-0386a5a87350")
+		)
+		(instances
+			(project "flipdot-driver"
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/23dd61ff-af20-420b-922c-1b78af65a8d2"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/28897df5-d5ba-45dd-b861-5a58f8e1226b"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/45825236-392f-4ea6-8c56-949587a7b847"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/7e12063d-9183-4f4e-b04a-6c9d44bd7e6e"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/900aecf4-8784-459a-afa1-dcb1080a7217"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/add764bb-b94f-44de-ada9-aa9db7bfbe33"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b184dd66-5b41-4563-99b2-edc5fdc65606"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b5c7a04d-d446-4735-9fed-23a26d286e82"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bd2c18ce-9603-4021-8b40-85311b12c3dd"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bda2c2b3-3548-42f9-893a-8c713f59a512"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c01e915a-19a4-4667-be8c-8776b0fc2e09"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c5507223-a188-4e5f-aa93-5c3937f8169e"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d09bd042-6db0-4704-9636-e02cca182aa8"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d743647f-aef7-4647-b805-41e80c681faf"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e225db67-1954-44ab-8a33-fd7cce1565cc"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e9b49fc8-028b-49de-97e3-4619df0a533c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flipdot:Res")
+		(at 97.79 59.69 90)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9b7b605-1780-4bde-b5bd-9b6e68daa56c")
+		(property "Reference" "R1"
+			(at 100.33 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 100.33 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "flipdot:R0603"
+			(at 97.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ad0dc3f-a2dd-4b73-8efe-fdcb688cff97")
+		)
+		(pin "1"
+			(uuid "dfd52726-c92e-49c5-82f6-535f8992fd78")
+		)
+		(instances
+			(project "flipdot-driver"
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/23dd61ff-af20-420b-922c-1b78af65a8d2"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/28897df5-d5ba-45dd-b861-5a58f8e1226b"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/45825236-392f-4ea6-8c56-949587a7b847"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/7e12063d-9183-4f4e-b04a-6c9d44bd7e6e"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/900aecf4-8784-459a-afa1-dcb1080a7217"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/add764bb-b94f-44de-ada9-aa9db7bfbe33"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b184dd66-5b41-4563-99b2-edc5fdc65606"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/b5c7a04d-d446-4735-9fed-23a26d286e82"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bd2c18ce-9603-4021-8b40-85311b12c3dd"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/bda2c2b3-3548-42f9-893a-8c713f59a512"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c01e915a-19a4-4667-be8c-8776b0fc2e09"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/c5507223-a188-4e5f-aa93-5c3937f8169e"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d09bd042-6db0-4704-9636-e02cca182aa8"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/d743647f-aef7-4647-b805-41e80c681faf"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e225db67-1954-44ab-8a33-fd7cce1565cc"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/a3badb4a-ace5-4fd3-8e42-c7185f9154a8/e9b49fc8-028b-49de-97e3-4619df0a533c"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
