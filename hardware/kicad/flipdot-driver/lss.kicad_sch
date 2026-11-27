@@ -514,9 +514,29 @@
 		)
 		(uuid "b318aa7b-bb43-4180-be42-003744fc1fad")
 	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbd2cfa-4754-4149-9bc6-9fbbbdea13f2")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 116.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909b96c0-27d0-41b4-814e-8dbe8b049dac")
+	)
 	(hierarchical_label "ROW"
 		(shape output)
-		(at 111.76 55.88 0)
+		(at 116.84 53.34 0)
 		(effects
 			(font
 				(size 1.5748 1.5748)
